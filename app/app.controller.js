@@ -1,10 +1,10 @@
 (function () {
     angular.module('app')
-        .controller('AppCtrl', AppController);
+        .controller('AppController', AppController);
 
-    AppController.$inject = ['$log', '$state', '$rootScope', '$scope', '$location'];
+    AppController.$inject = [];
 
-    function AppController($log, $state, $rootScope, $scope, $location) {
+    function AppController() {
 
         vm = this;
         vm.pageTitle ='brand new app';
