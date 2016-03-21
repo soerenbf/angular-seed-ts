@@ -7,13 +7,6 @@
     function AppController($log, $state, $rootScope, $scope, $location) {
 
         vm = this;
-        vm.pageTitle ='styled app';
-
-        $scope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-            if (angular.isDefined(toState.data.pageTitle)) {
-                vm.pageTitle = toState.data.pageTitle + ' | ' + 'styled app';
-                console.log(vm.pageTitle);
-            }
-        });
+        vm.pageTitle ='brand new app';
     };
 })();
