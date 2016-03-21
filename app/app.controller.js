@@ -1,5 +1,5 @@
 (function () {
-    angular.module('myApp')
+    angular.module('app')
         .controller('AppCtrl', AppController);
 
     AppController.$inject = ['$log', '$state', '$rootScope', '$scope', '$location'];
@@ -17,4 +17,3 @@
         });
     };
 })();
-

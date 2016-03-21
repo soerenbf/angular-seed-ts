@@ -1,8 +1,6 @@
 (function () {
-    angular.module('myApp', [
+    angular.module('app', [
         'ui.router',
-        'myApp.home',
-        'myApp.numbers'
+        'ngMockE2E'
     ]);
 })();
-

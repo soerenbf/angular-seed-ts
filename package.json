@@ -19,8 +19,8 @@
   },
   "scripts": {
 
-    "replace-name-preview": "/node_modules/replace/bin/replace.js myApp YOUR_APP_NAME app -r -p --include='*.js,*.html' --exclude=bower_components",
-    "replace-name": "/node_modules/replace/bin/replace.js myApp YOUR_APP_NAME app -r --include='*.js,*.html' --exclude=bower_components",
+    "replace-name-preview": "/node_modules/replace/bin/replace.js myApp app app -r -p --include='*.js,*.html' --exclude=bower_components",
+    "replace-name": "/node_modules/replace/bin/replace.js myApp app app -r --include='*.js,*.html' --exclude=bower_components",
 
     "postinstall": "bower install",
 

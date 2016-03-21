@@ -1,9 +1,9 @@
 describe('AppCtrl', function () {
-  
+
     describe('isCurrentUrl', function () {
         var AppCtrl, $location, $scope;
 
-        beforeEach(module('myApp'));
+        beforeEach(module('app'));
 
         beforeEach(inject(function ($controller, _$location_, $rootScope) {
             $location = _$location_;
